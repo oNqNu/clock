@@ -32,5 +32,10 @@
       "trailingComma": "es5",
       "semicolons": "always"
     }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    }
   }
 }

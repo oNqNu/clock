@@ -3,7 +3,7 @@ import styles from './App.module.css';
 
 function App() {
   const [count, setCount] = useState(0);
-
+  console.log('test');
   return (
     <div className={styles.container}>
       <h1>Hello World</h1>
