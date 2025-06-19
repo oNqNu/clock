@@ -37,3 +37,23 @@ pnpm dev
 - Interactive counter button
 - Hot Module Replacement (HMR)
 - Modern React with hooks
+- CSS Modules for scoped styling
+
+## CSS Modules
+
+This project uses CSS Modules for component-scoped styling. CSS Modules provide:
+
+- Local scope for CSS classes
+- No naming conflicts between components
+- Better maintainability
+- Type safety with TypeScript (when used)
+
+### Usage Example
+
+```jsx
+import styles from './Component.module.css';
+
+function Component() {
+  return <div className={styles.container}>Content</div>;
+}
+```
